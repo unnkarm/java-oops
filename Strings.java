@@ -8,5 +8,9 @@ public class Strings { //file name=class name
         System.out.println("String 2: " + str2);
         System.out.println("Concatenated String: " + str3);
         System.out.println(str1.contains("llo"));
+        System.out.println(str2.startsWith("W"));
+        System.out.println(str3.endsWith("d"));
+        System.out.println(str1.indexOf("Hello"));
+           
     }
 }
