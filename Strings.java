@@ -7,5 +7,6 @@ public class Strings { //file name=class name
         System.out.println("String 1: " + str1);
         System.out.println("String 2: " + str2);
         System.out.println("Concatenated String: " + str3);
+        System.out.println(str1.contains("llo"));
     }
 }
