@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Arr{
     public static void main(String[] args){
         int[]  marks= new int[4]; //or new int{50,40,30,20};
@@ -9,6 +11,8 @@ public class Arr{
 
         int[][] newMarks= new int[][] {{40,30}, {50,60}};
         System.out.println(newMarks[0][1]);
+        Arrays.sort(marks);
+        System.out.println(Arrays.toString(marks));
         
         
 
